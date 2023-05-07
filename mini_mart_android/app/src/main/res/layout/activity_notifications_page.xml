@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NotificationsPage">
     <com.google.android.material.navigation.NavigationView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -40,7 +42,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/SpringGreen4"
-            android:text="Quay về trang chủ" />
+            android:text="Quay lại trang chủ" />
     </LinearLayout>
 
 </LinearLayout>

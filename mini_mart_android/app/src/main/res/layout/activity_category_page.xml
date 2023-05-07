@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
-
+    tools:context=".CategoryPage">
     <TextView
         android:id="@+id/bgCategory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select a category"
+        android:text="Select category"
         android:textSize="25dp"
         android:textColor="@color/SpringGreen4"
         app:layout_constraintBottom_toBottomOf="@+id/back"
@@ -47,4 +47,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/bgCategory"
         app:srcCompat="@drawable/ic_shopping_cart" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/bottom_bar"
+        app:itemIconTint="@color/custom_color"
+        app:itemTextColor="@color/custom_color">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

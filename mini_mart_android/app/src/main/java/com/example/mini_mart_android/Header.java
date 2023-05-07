@@ -1,5 +1,7 @@
 package com.example.mini_mart_android;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -12,8 +14,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
 
-
-public class header_activity_main extends AppCompatActivity {
+public class Header extends AppCompatActivity {
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     ActionBarDrawerToggle drawerToggle;
@@ -28,11 +29,10 @@ public class header_activity_main extends AppCompatActivity {
 
     }
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.header_activity_main);
+        setContentView(R.layout.activity_header);
 
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);
@@ -47,38 +47,38 @@ public class header_activity_main extends AppCompatActivity {
                 {
                     case R.id.home:
                     {
-                        Toast.makeText(header_activity_main.this, "Home Selected", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Header.this, "Home Selected", Toast.LENGTH_SHORT).show();
                         break;
                     }
 
                     case R.id.voice:
                     {
-                        Toast.makeText(header_activity_main.this, "Voice Selected", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Header.this, "Voice Selected", Toast.LENGTH_SHORT).show();
                         break;
                     }
                     case R.id.account:
                     {
-                        Toast.makeText(header_activity_main.this, "Account Selected", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Header.this, "Account Selected", Toast.LENGTH_SHORT).show();
                         break;
                     }
                     case R.id.promotion:
                     {
-                        Toast.makeText(header_activity_main.this, "Promotion Selected", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Header.this, "Promotion Selected", Toast.LENGTH_SHORT).show();
                         break;
                     }
                     case R.id.notification:
                     {
-                        Toast.makeText(header_activity_main.this, "Notification Selected", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Header.this, "Notification Selected", Toast.LENGTH_SHORT).show();
                         break;
                     }
                     case R.id.contact:
                     {
-                        Toast.makeText(header_activity_main.this, "Contact Selected", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Header.this, "Contact Selected", Toast.LENGTH_SHORT).show();
                         break;
                     }
                     case R.id.share:
                     {
-                        Toast.makeText(header_activity_main.this, "Share Selected", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Header.this, "Share Selected", Toast.LENGTH_SHORT).show();
                         break;
                     }
                 }

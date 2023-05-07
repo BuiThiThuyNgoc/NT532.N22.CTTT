@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CartPage"
     android:orientation="vertical">
     <com.google.android.material.navigation.NavigationView
         android:layout_width="match_parent"
@@ -78,18 +80,27 @@
         android:layout_marginBottom="10dp"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-        <Button
-            android:id="@+id/btn_error"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="30dp"
-            android:text="Báo lỗi"
-            android:backgroundTint="@color/IndianRed"
-            android:layout_marginStart="10dp" />
+    <Button
+        android:id="@+id/btn_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Báo lỗi"
+        android:backgroundTint="@color/IndianRed"
+        android:layout_marginStart="10dp" />
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_marginTop="10dp"
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemIconTint="@color/custom_color"
+        app:itemTextColor="@color/custom_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/bottom_bar">
 
-
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 
 </LinearLayout>
