@@ -96,7 +96,7 @@
                 <TextView
                     android:textColor="@color/SpringGreen4"
                     android:text="@string/see"
-                    android:id="@+id/viewdDiscountedItems"
+                    android:id="@+id/tv_viewdDiscountedItems"
                     android:layout_marginRight="7dp"
                     android:layout_marginStart="180dp"
                     android:textSize="@dimen/text_size_button"
@@ -134,7 +134,7 @@
                     android:text="@string/see"
                     android:id="@+id/tv_viewAllCategory"
                     android:layout_marginRight="7dp"
-                    android:layout_marginStart="210dp"
+                    android:layout_marginStart="225dp"
                     android:textSize="@dimen/text_size_button"
                     android:layout_marginTop="5dp"
                     android:layout_width="wrap_content"

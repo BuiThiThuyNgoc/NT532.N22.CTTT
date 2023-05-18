@@ -161,7 +161,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="220dp"
                 android:layout_marginTop="5dp"
-                android:text="số tiền" />
+                android:text="@string/charge_number" />
         </LinearLayout>
 
         <LinearLayout
@@ -177,15 +177,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Tạm tính" />
+                android:text="@string/temporary_calculation" />
 
             <TextView
                 android:id="@+id/provisionalAmount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="280dp"
+                android:layout_marginStart="240dp"
                 android:layout_marginTop="5dp"
-                android:text="số tiền" />
+                android:text="@string/provisional_money" />
         </LinearLayout>
         <Button
             android:id="@+id/btn_order"
@@ -193,7 +193,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:backgroundTint="@color/SpringGreen4"
-            android:text="Đặt hàng"
+            android:text="@string/order"
             android:layout_marginTop="20dp"
             tools:layout_editor_absoluteX="262dp"
             tools:layout_editor_absoluteY="631dp" />

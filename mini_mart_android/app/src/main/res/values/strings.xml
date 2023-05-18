@@ -32,9 +32,14 @@
     <string name="continue_shopping">Tiếp tục mua hàng</string>
     <string name="clear_cart">Xoá hết giỏ hàng</string>
     <string name="delivery_charges">Phí giao hàng</string>
-    <string name="amount_of_money">số tiền</string>
+    <string name="charge_number">số phí</string>
     <string name="temporary_calculation">Tạm tính</string>
+    <string name="provisional_money">Tiền tạm tính</string>
+    <string name="total">Total</string>
     <string name="order">Đặt hàng</string>
+    <string name="issue_company_invoice">Xuất hoá đơn công ty</string>
+    <string name="other_request">Yêu cầu khác</string>
+    <string name="complete_the_purchase">Hoàn tất mua</string>
 
     //cart page
     <string name="back_to_the_homepage">Quay lại trang chủ</string>
@@ -58,6 +63,7 @@
 
     //notification
     <string name="no_announcements">Không có thông báo</string>
+    <string name="announcements">Có thông báo</string>
 
     //order success page
     <string name="thank_you">Cảm ơn bạn</string>
@@ -76,6 +82,11 @@
     <string name="visa">Thẻ Visa, Master, JCB</string>
     <string name="momo_wallet">Ví Momo</string>
     <string name="cash_on_delivery">Tiền mặt khi nhận hàng</string>
+    <string name="choose_a_delivery_time">Chọn thời gian nhận hàng</string>
+    <string name="delivery_time">dd/mm/yy</string>
+    <string name="invoice_information">Thông tin hoá đơn</string>
+    <string name="cash_for_goods">Tiền hàng</string>
+    <string name="total_amount">Tổng tiền</string>
 
     //product detail page
     <string name="product_details">Product Details</string>

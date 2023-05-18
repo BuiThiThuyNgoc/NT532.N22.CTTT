@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.view.View;
 import android.content.Intent;
+import android.widget.TextView;
 import android.widget.Toast;
 
 //import com.example.mini_mart_android.adapter.CategoryAdapter;
@@ -23,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     ActionBarDrawerToggle drawerToggle;
-    ImageView setting;
+    ImageView setting, imgView_cart;
+    private TextView tv_viewdDiscountedItems, tv_viewAllCategory;
     private RecyclerView discountedRecycler, categoryRecycler;
 
 
@@ -34,22 +36,38 @@ public class MainActivity extends AppCompatActivity {
 
         //drawerLayout = findViewById(R.id.drawer_layout);
         setting = findViewById(R.id.imgView_setting);
+        imgView_cart = findViewById(R.id.imgView_cart);
+
+        tv_viewdDiscountedItems = findViewById(R.id.tv_viewdDiscountedItems);
+        tv_viewAllCategory = findViewById(R.id.tv_viewAllCategory);
 
         discountedRecycler = findViewById(R.id.discountedRecycler);
         categoryRecycler = findViewById(R.id.categoryRecycler);
 
-        //btnKeyboard.setOnClickListener(new View.OnClickListener() {
-            //@Override
-            //public void onClick(View view) {
+        imgView_cart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, CartDetailPage.class);
+                startActivity(intent);
+            }
+        });
 
-                //Intent intent = new Intent(historyActivity.this, MainActivity.class);
-                //startActivity(intent);
+        tv_viewdDiscountedItems.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ItemDiscount.class);
+                startActivity(intent);
+            }
+        });
+        tv_viewAllCategory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, CategoryPage.class);
+                startActivity(intent);
+            }
+        });
 
-                //Toast.makeText(historyActivity.this, "Go to the keyboard page", Toast.LENGTH_SHORT).show();
 
-
-            //}
-        //});
     }
 
 }
