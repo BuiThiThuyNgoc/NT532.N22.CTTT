@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Không có thông báo"
+            android:text="@string/no_announcements"
             android:textSize="20dp"
             android:textStyle="bold" />
 
@@ -42,7 +42,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/SpringGreen4"
-            android:text="Quay lại trang chủ" />
+            android:text="@string/back_to_the_homepage" />
     </LinearLayout>
 
 </LinearLayout>

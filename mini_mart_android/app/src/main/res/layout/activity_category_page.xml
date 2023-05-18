@@ -9,7 +9,7 @@
         android:id="@+id/bgCategory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select category"
+        android:text="@string/select_category"
         android:textSize="25dp"
         android:textColor="@color/SpringGreen4"
         app:layout_constraintBottom_toBottomOf="@+id/back"
@@ -53,6 +53,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/bottom_bar"
+        app:labelVisibilityMode="labeled"
         app:itemIconTint="@color/custom_color"
         app:itemTextColor="@color/custom_color">
 

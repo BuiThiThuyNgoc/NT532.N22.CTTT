@@ -26,7 +26,7 @@
             android:id="@+id/tv_backHome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Quay lại trang chủ"
+            android:text="@string/back_to_the_homepage"
             android:textColor="@color/black"
             android:layout_marginTop="5dp"
             android:layout_marginStart="90dp"/>
@@ -53,7 +53,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginStart="22dp"
             android:backgroundTint="@color/SpringGreen4"
-            android:text="Tiếp tục mua hàng" />
+            android:text="@string/continue_shopping" />
         <Button
             android:id="@+id/btn_buyOldBill"
             android:layout_width="wrap_content"
@@ -62,13 +62,13 @@
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/SpringGreen4"
             android:layout_marginStart="10dp"
-            android:text="Mua lại đơn cũ" />
+            android:text="@string/buy_back_the_old_order" />
 
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Còn hơn 10.000+ sản phẩm"
+        android:text="@string/other_products"
         android:gravity="center"
         android:layout_marginTop="10dp"/>
 
@@ -86,7 +86,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:text="Báo lỗi"
+        android:text="@string/error"
         android:backgroundTint="@color/IndianRed"
         android:layout_marginStart="10dp" />
 
@@ -97,6 +97,7 @@
         android:layout_height="wrap_content"
         app:itemIconTint="@color/custom_color"
         app:itemTextColor="@color/custom_color"
+        app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/bottom_bar">
 

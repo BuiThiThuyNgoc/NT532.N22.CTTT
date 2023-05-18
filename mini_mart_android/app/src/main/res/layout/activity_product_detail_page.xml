@@ -29,7 +29,7 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Product Details"
+        android:text="@string/product_details"
         android:textColor="@color/SpringGreen4"
         android:textStyle="bold"
         android:textSize="25dp"
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
-        android:text="Product name"
+        android:text="@string/product_name"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/big_image" />
@@ -74,7 +74,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Price"
+        android:text="@string/price"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="@+id/productName"
         app:layout_constraintTop_toBottomOf="@+id/productName" />
@@ -83,7 +83,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="TextView"
+        android:text="@string/amount_of_money"
         app:layout_constraintStart_toStartOf="@+id/prodPrice"
         app:layout_constraintTop_toBottomOf="@+id/prodPrice" />
 
@@ -92,7 +92,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
-        android:text="Đồng"
+        android:text="@string/unit"
         app:layout_constraintBottom_toBottomOf="@+id/qty"
         app:layout_constraintStart_toEndOf="@+id/qty"
         app:layout_constraintTop_toTopOf="@+id/qty" />
@@ -104,7 +104,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="272dp"
-        android:text="Product description"
+        android:text="@string/product_description"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.553"
@@ -118,7 +118,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="@color/SpringGreen4"
-        android:text="Buy"
+        android:text="@string/buy"
         android:textColor="#FFFFFF"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="@+id/prodPrice"
@@ -154,7 +154,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:gravity="center_horizontal"
-            android:text="1"
+            android:text="@string/one"
             android:textColor="@color/black"
             android:textSize="17dp"
             android:textStyle="bold" />

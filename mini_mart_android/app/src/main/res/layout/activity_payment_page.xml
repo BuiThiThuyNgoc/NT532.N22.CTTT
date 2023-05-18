@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:headerLayout="@layout/nav_search"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,260 +30,158 @@
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Xem lại giỏ hàng"
+            android:text="@string/review_cart"
             android:textSize="18dp"
             android:layout_marginTop="16dp"
             android:layout_marginStart="16dp"/>
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="380dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:orientation="vertical"
-        android:layout_marginTop="10dp">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Địa chỉ nhận hàng"
-            android:textColor="@color/black"
-            android:textSize="20dp"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/edt_tphone"
-            android:hint="Phone Number"
-            android:textColorHint="@color/Gray"
-            android:textColor="@color/black"
-            android:layout_marginTop="10dp"
-            android:padding="20dp"
-            android:drawablePadding="20dp"/>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="10dp"
-                android:src="@drawable/ic_circle" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginStart="3dp"
-                android:paddingTop="5dp"
-                android:text="Anh"
-                android:textSize="18dp"
-                android:textColor="@color/black" />
-            <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:layout_marginStart="30dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="10dp"
-                android:src="@drawable/ic_circle" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginStart="3dp"
-                android:paddingTop="5dp"
-                android:text="Chị"
-                android:textSize="18dp"
-                android:textColor="@color/black" />
-        </LinearLayout>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/edt_name"
-            android:hint="Full name"
-            android:textColorHint="@color/Gray"
-            android:textColor="@color/black"
-            android:layout_marginTop="10dp"
-            android:padding="20dp"
-            android:drawablePadding="20dp"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/edt_address"
-            android:hint="Address"
-            android:textColorHint="@color/Gray"
-            android:textColor="@color/black"
-            android:layout_marginTop="10dp"
-            android:padding="20dp"
-            android:drawablePadding="20dp"/>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="10dp"
-                android:src="@drawable/ic_square" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginStart="3dp"
-                android:paddingTop="5dp"
-                android:text="Yêu cầu mang lên lầu (+5000đ)"
-                android:textSize="18dp"
-                android:textColor="@color/black" />
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="10dp"
-                android:src="@drawable/ic_square" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginStart="3dp"
-                android:paddingTop="5dp"
-                android:text="Gọi người khác nhận hàng (nếu có)"
-                android:textSize="18dp"
-                android:textColor="@color/black" />
-        </LinearLayout>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="380dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="15dp"
-        android:orientation="vertical">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="Chọn hình thức thanh toán"
-            android:textColor="@color/black"
-            android:textSize="20dp"/>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="10dp"
-                android:src="@drawable/ic_circle" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginStart="3dp"
-                android:paddingTop="5dp"
-                android:text="Thẻ Visa, Master, JCB"
-                android:textSize="18dp"
-                android:textColor="@color/black" />
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="10dp"
-                android:src="@drawable/ic_circle" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginStart="3dp"
-                android:paddingTop="5dp"
-                android:text="Ví Momo"
-                android:textSize="18dp"
-                android:textColor="@color/black" />
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="10dp"
-                android:src="@drawable/ic_circle" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginStart="3dp"
-                android:paddingTop="5dp"
-                android:text="Tiền mặt khi nhận hàng"
-                android:textSize="18dp"
-                android:textColor="@color/black" />
-        </LinearLayout>
-
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/vouchers_account"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal"
-        tools:layout_editor_absoluteX="16dp">
+        android:layout_height="match_parent"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        >
 
-        <ImageView
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="10dp"
-            android:src="@drawable/vouchers" />
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginStart="10dp"
-            android:paddingTop="5dp"
-            android:text="Mua phiếu mua hàng"
-            android:textColor="@color/black" />
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_marginStart="180dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="10dp"
-            android:src="@drawable/ic_continues" />
-    </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/delivery_address"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
 
+                <EditText
+                    android:id="@+id/edt_tphone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawablePadding="20dp"
+                    android:hint="@string/phone_nuber"
+                    android:padding="20dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/Gray" />
+
+                <RadioGroup
+                    android:id="@+id/tip_options_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:itemTextColor="@color/custom_color"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/edt_tphone">
+
+                    <RadioButton
+                        android:id="@+id/option_sex_male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/male" />
+
+                    <RadioButton
+                        android:id="@+id/option_sex_female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="@string/female" />
+
+
+                </RadioGroup>
+
+                <EditText
+                    android:id="@+id/edt_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawablePadding="20dp"
+                    android:hint="@string/full_name"
+                    android:padding="20dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/Gray" />
+
+                <EditText
+                    android:id="@+id/edt_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawablePadding="20dp"
+                    android:hint="@string/delivery_address"
+                    android:padding="20dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/Gray" />
+
+                <RadioGroup
+                    android:id="@+id/tip_options_request"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:itemTextColor="@color/custom_color"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/edt_address">
+
+                    <RadioButton
+                        android:id="@+id/option_twenty_percent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/request_to_bring_upstairs" />
+
+                    <RadioButton
+                        android:id="@+id/option_eighteen_percent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/call_someone_else_to_receive_the_goods" />
+
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/vouchers_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="16dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/vouchers" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="10dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/vouchers"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="180dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_continues" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>
