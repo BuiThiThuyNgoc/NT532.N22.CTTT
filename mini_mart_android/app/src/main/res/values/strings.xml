@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">mini_mart_android</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="scroll_view_description">Scroll View Description</string>
+
+    //header
+    <string name="action_menu">Menu</string>
+    <string name="action_search">Search</string>
+    <string name="action_voice">Voice</string>
+    <string name="action_product">Sản phẩm</string>
+    <string name="action_promotion">Khuyến mãi</string>
+    <string name="action_shoppingCart">Giỏ hàng</string>
+    <string name="action_notification">Thông báo</string>
+    <string name="action_account">Tài khoản</string>
+
+    //account page
+    <string name="information">Thông tin cá nhân</string>
+    <string name="enter_phone_number">Để xem Tài Khoản vui lòng nhập số điện thoại mua hàng</string>
+    <string name="phone_nuber">Phone Number</string>
+    <string name="continues">Tiếp tục</string>
+    <string name="vouchers">Mua phiếu mua hàng</string>
+    <string name="customer_support">Hỗ trợ khách hàng</string>
+    <string name="version">Phiên bản: 1.1.38(v233)</string>
+    <string name="consulting_call_center">Tổng đài tư vấn:1900.1900 (7:30 - 21:00)</string>
+    <string name="feedback">Góp ý / Liên hệ</string>
+    <string name="search_other_supermarkets">Tìm kiếm siêu thị khác</string>
+    <string name="other_policies">Các chính sách khác</string>
+
+    //cart detail
+    <string name="cart_details">Cart Details</string>
+    <string name="continue_shopping">Tiếp tục mua hàng</string>
+    <string name="clear_cart">Xoá hết giỏ hàng</string>
+    <string name="delivery_charges">Phí giao hàng</string>
+    <string name="charge_number">số phí</string>
+    <string name="temporary_calculation">Tạm tính</string>
+    <string name="provisional_money">Tiền tạm tính</string>
+    <string name="total">Total</string>
+    <string name="order">Đặt hàng</string>
+    <string name="issue_company_invoice">Xuất hoá đơn công ty</string>
+    <string name="other_request">Yêu cầu khác</string>
+    <string name="complete_the_purchase">Hoàn tất mua</string>
+
+    //cart page
+    <string name="back_to_the_homepage">Quay lại trang chủ</string>
+    <string name="buy_back_the_old_order">Mua lại đơn cũ</string>
+    <string name="other_products">Còn hơn 10.000+ sản phẩm</string>
+    <string name="error">Báo lỗi</string>
+
+    //category page
+    <string name="select_category">Select Category</string>
+
+    //
+    <string name="shock_promotion">Khuyến mãi sốc</string>
+    <string name="describe">mô tả</string>
+    <string name="discount">Giảm giá 30%</string>
+
+    //main
+    <string name="minimart">MiniMart</string>
+    <string name="top_discounted_items">Top Discounted Items</string>
+    <string name="see">See</string>
+    <string name="recently_viewed_items">Recently Viewed Items</string>
+
+    //notification
+    <string name="no_announcements">Không có thông báo</string>
+    <string name="announcements">Có thông báo</string>
+
+    //order success page
+    <string name="thank_you">Cảm ơn bạn</string>
+    <string name="order_placed_successfully">Đơn hàng đã đặt thành công!</string>
+    <string name="completed">Hoàn tất</string>
+
+    //payment page
+    <string name="review_cart">Xem lại giỏ hàng</string>
+    <string name="delivery_address">Số nhà</string>
+    <string name="male">Anh</string>
+    <string name="female">Chị</string>
+    <string name="full_name">Full name</string>
+    <string name="request_to_bring_upstairs">Yêu cầu mang lên lầu  (+5.000đ)</string>
+    <string name="call_someone_else_to_receive_the_goods">Gọi người khác nhận hàng (nếu có)</string>
+    <string name="choose_a_form_of_payment">Chọn hình thức thanh toán</string>
+    <string name="visa">Thẻ Visa, Master, JCB</string>
+    <string name="momo_wallet">Ví Momo</string>
+    <string name="cash_on_delivery">Tiền mặt khi nhận hàng</string>
+    <string name="choose_a_delivery_time">Chọn thời gian nhận hàng</string>
+    <string name="delivery_time">dd/mm/yy</string>
+    <string name="invoice_information">Thông tin hoá đơn</string>
+    <string name="cash_for_goods">Tiền hàng</string>
+    <string name="total_amount">Tổng tiền</string>
+
+    //product detail page
+    <string name="product_details">Product Details</string>
+    <string name="product_name">Product name</string>
+    <string name="price">Price</string>
+    <string name="unit">Đồng</string>
+    <string name="product_description">Product description</string>
+    <string name="buy">Buy</string>
+    <string name="one">1</string>
+
+    //
+    <string name="name">Name</string>
+    <string name="twenty_thousand">20000</string>
+    <string name="five_dots_zero">5.0</string>
+    <string name="loading">Loading...</string>
+    <string name="meat">Thịt ba rọi</string>
+    <string name="quantity">Số lượng:2</string>
+    <string name="date">Ngày: 20/5/22</string>
+    <string name="thirty_thousand">30.000 vnd</string>
+    <string name="sixty_four_thousand">64.000đ</string>
+
+    //continues account
+    <string name="rank">Rank</string>
+    <string name="buy_more_to_get_promoted">Mua thêm để được lên hạng</string>
+    <string name="free_delivery">Miễn phí giao cho đơn hàng từ 300.000 đồng trở lên</string>
+    <string name="money_left_over">Tiền dư</string>
+    <string name="no_vnd">0đ</string>
+    <string name="edit_personal_information">Sửa thông tin cá nhân</string>
+    <string name="orders_purchased">Đơn hàng từng mua</string>
+    <string name="select_the_channel_to_receive_notifications">Chọn kênh nhận thông báo</string>
+
+    //promotion
+    <string name="promotion">Promotion</string>
+
+</resources>

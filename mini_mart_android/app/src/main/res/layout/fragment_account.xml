@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.AccountFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:headerLayout="@layout/nav_search"/>
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/information"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:background="@color/SpringGreen4"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_phone_number"
+                android:textColor="@color/black"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edt_tphone"
+                android:hint="@string/phone_nuber"
+                android:textColorHint="@color/Gray"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:padding="20dp"
+                android:drawablePadding="20dp"/>
+            <Button
+                android:id="@+id/btn_continue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/continues"
+                android:backgroundTint="@color/SpringGreen4"
+                android:layout_marginTop="10dp"/>
+            <LinearLayout
+                android:id="@+id/vouchers_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/vouchers" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="10dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/vouchers"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="150dp"
+                    android:src="@drawable/ic_continues" />
+            </LinearLayout>
+            <com.google.android.material.navigation.NavigationView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:headerLayout="@layout/nav_customer_support"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/backgroud3" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
